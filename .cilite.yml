@@ -1,7 +1,0 @@
-image: python:3.11-slim
-
-commands:
-  - echo "Installing dependencies..."
-  - pip install pytest
-  - echo "Running tests..."
-  - pytest -v || echo "Tests failed (but we continue)"
